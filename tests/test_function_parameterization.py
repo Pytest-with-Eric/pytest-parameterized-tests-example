@@ -76,3 +76,8 @@ def test_clean_string(string, expected):
 def test_clean_string(string, expected):
     assert clean_string(string) == expected
 
+# Parameterized testing with 2 arguments and ranges
+@pytest.mark.parametrize("a", range(5))
+@pytest.mark.parametrize("b", range(10))
+def test_addition_2_args(a, b):
+    assert addition(a, b) == a + b
