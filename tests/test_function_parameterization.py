@@ -86,3 +86,13 @@ def test_clean_string_marked(string, expected):
 @pytest.mark.parametrize("b", range(10))
 def test_addition_2_args(a, b):
     assert addition(a, b) == a + b
+
+
+# Using Pytest generate tests to create tests
+def pytest_generate_tests(metafunc):
+    if 'x' in metafunc.fixturenames and 'y' in metafunc.fixturenames:
+        metafunc.parametrize('x', [1, 2, 3])
+        metafunc.parametrize('y', [5, 6, 7])
+
+def test_addition_generate_tests(x, y):
+    assert addition(x, y) == x + y
