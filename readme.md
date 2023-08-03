@@ -1,5 +1,5 @@
 # Pytest Paramerized Tests Example
-This repo contains the sample code for the article - [How to Effortlessly Generate Unit Test Cases with Pytest Parameterized Tests](https://pytest-with-eric.com/introduction/pytest-parameterized-tests/)
+This repo contains the sample code for the article - [How to Effortlessly Generate Unit Test Cases with Pytest Parameterized Tests](https://pytest-with-eric.com/introduction/pytest-parameterized-tests/?utm_source=github&utm_medium=repository&utm_campaign=readme)
 
 This project explains how to use Pytest Parameters to generate Unit Test cases. 
 
