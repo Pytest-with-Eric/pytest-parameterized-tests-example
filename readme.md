@@ -1,10 +1,10 @@
 # Pytest Paramerized Tests Example
-<!-- This repo contains the sample code for the article - [How To Use Pytest Logging And Print To Console And File (A Comprehensive Guide)](https://pytest-with-eric.com/pytest-best-practices/pytest-logging/)
+This repo contains the sample code for the article - [How to Effortlessly Generate Unit Test Cases with Pytest Parameterized Tests](https://pytest-with-eric.com/introduction/pytest-parameterized-tests/)
 
-This project explains how to use Pytest logging and print to console and file.  -->
+This project explains how to use Pytest Parameters to generate Unit Test cases. 
 
 # Requirements
-* Python (≥ 3.10)
+* Python (≥ 3.11)
 
 Please install the dependencies via the `requirements.txt` file using 
 ```commandline
