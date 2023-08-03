@@ -74,7 +74,7 @@ def test_clean_string(string, expected):
     [
         (" hello ", "hello"),
         (" WoRlD ", "world"),
-        pytest.param(None, 42, marks=pytest.mark.xfail),
+        pytest.param(None, 42, marks=pytest.mark.xfail(reason="some bug")),
     ],
 )
 def test_clean_string_marked(string, expected):
