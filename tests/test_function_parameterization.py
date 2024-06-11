@@ -88,7 +88,7 @@ def test_addition_2_args(a, b):
     assert addition(a, b) == a + b
 
 
-Using Pytest generate tests to create tests
+# Using Pytest generate tests to create tests
 def pytest_generate_tests(metafunc):
     if 'x' in metafunc.fixturenames and 'y' in metafunc.fixturenames:
         metafunc.parametrize('x', [1, 2, 3])
